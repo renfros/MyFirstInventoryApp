@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainDirectory"
+    android:background="#FFFFFF">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+    <com.google.android.material.tabs.TabLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabs"
+        android:background="@drawable/tabbar_layout_bottom"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        >
+    </com.google.android.material.tabs.TabLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/container"
+        ></androidx.viewpager2.widget.ViewPager2>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="92dp"-->
+<!--        android:layout_height="91dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginBottom="88dp"-->
+<!--        app:srcCompat="?android:attr/actionModeFindDrawable" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnReports"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="176dp"-->
+<!--        android:layout_marginBottom="120dp"-->
+<!--        android:text="Reports"-->
+<!--     />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnCategories"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="148dp"-->
+<!--        android:layout_marginBottom="88dp"-->
+<!--        android:text="Take Inventory"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="93dp"-->
+<!--        android:layout_height="91dp"-->
+<!--        android:layout_marginBottom="76dp"-->
+<!--        app:srcCompat="@android:drawable/ic_menu_agenda" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
